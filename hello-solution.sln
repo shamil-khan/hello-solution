@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-app", "web-app\web-app.csproj", "{DD0A41C0-144D-4B49-84EC-7D2D2FF615CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sky.services", "sky.services\sky.services.csproj", "{BD8055DC-080C-4FAE-8E2B-C6D6BE952073}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{DD0A41C0-144D-4B49-84EC-7D2D2FF615CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD0A41C0-144D-4B49-84EC-7D2D2FF615CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD0A41C0-144D-4B49-84EC-7D2D2FF615CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8055DC-080C-4FAE-8E2B-C6D6BE952073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8055DC-080C-4FAE-8E2B-C6D6BE952073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8055DC-080C-4FAE-8E2B-C6D6BE952073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8055DC-080C-4FAE-8E2B-C6D6BE952073}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
