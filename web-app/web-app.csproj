@@ -65,7 +65,6 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClientBin\sky.silverlight-client.xap" />
     <Content Include="css\common.css" />
     <Content Include="default.aspx" />
     <Content Include="echo.aspx" />
@@ -86,6 +85,9 @@
       <Project>{bd8055dc-080c-4fae-8e2b-c6d6be952073}</Project>
       <Name>sky.services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClientBin\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
