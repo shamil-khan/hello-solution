@@ -1,0 +1,16 @@
+﻿.navbar {
+    background-color: #464600;
+}
+
+.navbar > a {
+    margin-left: 10px;
+    color: #ffffff;
+    height: 20px;
+    font-size:large;
+} 
+
+.navbar > a:hover { 
+    color: #999999;
+    text-shadow: none;
+} 
+

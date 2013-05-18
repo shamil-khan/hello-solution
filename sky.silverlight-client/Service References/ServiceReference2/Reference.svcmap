@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b3bebfd1-acd4-4969-b566-b6d390e51d4f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7470/services/echo-duplex-service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="echo-duplex-service.disco" MetadataType="Disco" ID="c8154614-7a9e-4543-a142-ec74bbf6a9d6" SourceId="1" SourceUrl="http://localhost:7470/services/echo-duplex-service.svc?disco" />
+    <MetadataFile FileName="echo-duplex-service.xsd" MetadataType="Schema" ID="b32d64f5-c382-4845-a39c-5c4cf84ac9b3" SourceId="1" SourceUrl="http://localhost:7470/services/echo-duplex-service.svc?xsd=xsd1" />
+    <MetadataFile FileName="EchoDuplexService.wsdl" MetadataType="Wsdl" ID="fd14c331-8b19-4cf1-8b76-04aa6654505d" SourceId="1" SourceUrl="http://localhost:7470/services/echo-duplex-service.svc?wsdl" />
+    <MetadataFile FileName="echo-duplex-service.wsdl" MetadataType="Wsdl" ID="094deace-d93f-4a49-a3b1-3dc1cfac1de4" SourceId="1" SourceUrl="http://localhost:7470/services/echo-duplex-service.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="echo-duplex-service1.xsd" MetadataType="Schema" ID="ac2a455e-4e19-49d1-89e7-a856944f2fd3" SourceId="1" SourceUrl="http://localhost:7470/services/echo-duplex-service.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

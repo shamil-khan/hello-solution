@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a70c0875-a1e0-4215-ae63-7da390573746" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7470/services/echo-wcf-service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EchoWcfService.wsdl" MetadataType="Wsdl" ID="88c3cb46-ed84-462d-91f5-59ce0d05e25f" SourceId="1" SourceUrl="http://localhost:7470/services/echo-wcf-service.svc?wsdl" />
+    <MetadataFile FileName="echo-wcf-service.disco" MetadataType="Disco" ID="70a6e34d-3edb-4a88-b43c-aa3d93b7f218" SourceId="1" SourceUrl="http://localhost:7470/services/echo-wcf-service.svc?disco" />
+    <MetadataFile FileName="echo-wcf-service.xsd" MetadataType="Schema" ID="ed60698f-6208-41b0-81d1-75445d34e408" SourceId="1" SourceUrl="http://localhost:7470/services/echo-wcf-service.svc?xsd=xsd0" />
+    <MetadataFile FileName="echo-wcf-service1.xsd" MetadataType="Schema" ID="addba791-a545-452f-82dc-82e678cf7d28" SourceId="1" SourceUrl="http://localhost:7470/services/echo-wcf-service.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
